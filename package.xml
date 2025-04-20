@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_agv_pkg</name>
+  <version>0.0.1</version>
+  <description>AGV sim with 2D GUI + PID in Gazebo</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>gazebo_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>tf2_ros</depend>
+</package>
